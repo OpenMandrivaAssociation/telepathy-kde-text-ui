@@ -11,7 +11,7 @@ Group:		Graphical desktop/KDE
 Obsoletes:      telepathy-chat-handler 
 BuildRequires:	kdelibs4-devel
 BuildRequires:	qt4-devel
-BuildRequires:	telepathy-qt4-devel
+BuildRequires:	telepathy-qt4-devel >= 0.7.1
 BuildRequires:	shared-desktop-ontologies-devel
 BuildRequires:  pkgconfig(telepathy-logger-0.2)
 BuildRequires:  pkgconfig(QtGLib-2.0)
