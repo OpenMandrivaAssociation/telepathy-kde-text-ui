@@ -8,6 +8,7 @@ Url:		https://projects.kde.org/projects/playground/network/telepathy/telepathy-t
 Source0:	ftp://ftp.gtlib.cc.gatech.edu/pub/kde/unstable/telepathy-kde/%version/src/%srcname-%version.tar.bz2
 License:	GPLv2+
 Group:		Networking/Instant messaging
+BuildRequires:	make
 BuildRequires:	telepathy-kde-common-internals-devel >= %{version}
 BuildRequires:	pkgconfig(shared-desktop-ontologies)
 BuildRequires:	pkgconfig(telepathy-logger-0.2)
